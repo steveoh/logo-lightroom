@@ -5,5 +5,6 @@ export default defineConfig({
   plugins: [reactRefresh()],
   server: {
     port: 1337
-  }
+  },
+  base: 'https://steveoh.github.io/logo-lightroom/'
 })
